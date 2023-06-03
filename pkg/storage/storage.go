@@ -1,7 +1,7 @@
 package storage
 
-import "github.com/chengaro/storage/pkg/storage"
+import "github.com/chengaro/storage/internal/storage"
 
-func NewStorage() *storage.Storage {
+func NewStorage(someArg string) *storage.Storage {
 	return storage.NewStorage()
 }
